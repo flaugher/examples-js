@@ -10,3 +10,12 @@ console.log('Christmas is ' + christmas);
 // separate argument (yr, mo, day, hr, min, sec, msec)
 var halloween = new Date('2015, 10, 31');
 console.log('Halloween is ' + halloween.toString());
+
+// Date getters
+console.log(halloween.getDay());      // 6 = thu
+console.log(halloween.getDate());     // 31
+console.log(halloween.getMonth());    // 9
+console.log(halloween.getFullYear()); // 2015
+
+// Timestamp representing msec since the Epoch
+console.log(today.getTime());
